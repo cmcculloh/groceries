@@ -301,7 +301,11 @@ export default {
 		"serving": 1,
 		"unit": "ct",
 		"rawServingSize": "28 ct",
-		"servingsPerContainer": "28"
+		"servingsPerContainer": "28",
+		"categories": [
+			"Cleaning and Household",
+			"Food Storage"
+		]
 	},
 	"0001111018180": {
 		"link": "https://www.kroger.com/p/item/0001111018180",
@@ -4505,7 +4509,11 @@ export default {
 		"serving": "1",
 		"unit": "tbsp",
 		"rawServingSize": "1 tbsp. (15g)",
-		"servingsPerContainer": "22.0"
+		"servingsPerContainer": "22.0",
+		"categories": [
+			"Pantry",
+			"Baking & Cooking"
+		]
 	},
 	"0001111080259": {
 		"link": "https://www.kroger.com/p/item/0001111080259",
@@ -4693,7 +4701,11 @@ export default {
 		"serving": "17",
 		"unit": "chips",
 		"rawServingSize": "About 17 chips (28g)",
-		"servingsPerContainer": "8.0"
+		"servingsPerContainer": "8.0",
+		"categories": [
+			"Pantry",
+			"Snacks"
+		]
 	},
 	"0002840020129": {
 		"link": "https://www.kroger.com/p/item/0002840020129",
@@ -5137,7 +5149,11 @@ export default {
 		"serving": "1",
 		"unit": "Can",
 		"rawServingSize": "1 Can",
-		"servingsPerContainer": "8.0 Approximately "
+		"servingsPerContainer": "8.0 Approximately ",
+		"categories": [
+			"Beverages",
+			"Sparkling Water & Seltzer Water"
+		]
 	},
 	"0007153730164": {
 		"link": "https://www.kroger.com/p/item/0007153730164",
@@ -5165,7 +5181,11 @@ export default {
 		"serving": "3",
 		"unit": "pieces",
 		"rawServingSize": "3 pieces (30g)",
-		"servingsPerContainer": "7.0"
+		"servingsPerContainer": "7.0",
+		"categories": [
+			"Candy",
+			"Chocolate"
+		]
 	},
 	"0003400001908": {
 		"link": "https://www.kroger.com/p/item/0003400001908",
@@ -5481,7 +5501,11 @@ export default {
 		"serving": "1",
 		"unit": "can",
 		"rawServingSize": "1 can drained (74g)",
-		"servingsPerContainer": "1.0 "
+		"servingsPerContainer": "1.0 ",
+		"categories": [
+			"Pantry",
+			"Canned Foods"
+		]
 	},
 	"0002840051777": {
 		"link": "https://www.kroger.com/p/item/0002840051777",
@@ -5669,7 +5693,11 @@ export default {
 		"serving": "2",
 		"unit": "oz",
 		"rawServingSize": "2 oz (56g)",
-		"servingsPerContainer": "6.0 "
+		"servingsPerContainer": "6.0 ",
+		"categories": [
+			"Meat & Seafood",
+			"Dinner Sausage"
+		]
 	},
 	"0001708287631": {
 		"link": "https://www.kroger.com/p/item/0001708287631",
@@ -5745,7 +5773,11 @@ export default {
 		"serving": "1",
 		"unit": "cup",
 		"rawServingSize": "1 cup (42g)",
-		"servingsPerContainer": "19.0"
+		"servingsPerContainer": "19.0",
+		"categories": [
+			"Breakfast",
+			"Cereal & Granola"
+		]
 	},
 	"0001111012199": {
 		"link": "https://www.kroger.com/p/item/0001111012199",
