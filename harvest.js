@@ -103,7 +103,8 @@ async function scrapeProduct(url, cookies) {
                 unit,
                 rawServingSize: servingSize,
                 servingsPerContainer,
-                categories
+                categories,
+                scrapeDate: new Date().toISOString()
             }
         }
 
@@ -195,7 +196,14 @@ const failures = [];
                     const upc = Object.keys(data)[0]; // Assuming UPC is the key of the product object
                     if (results[upc]) {
                         // If the product already exists, update only the price
+                        if (!results[upc].historicalPrices) results[upc].historicalPrices = [];
+                        // check to see if current price is different from last price
+                        if (results[upc].price !== data[upc].price) {
+                            results[upc].historicalPrices.push({ price: results[upc].price, date: results[upc].scrapeDate });
+                        }
+
                         results[upc].price = data[upc].price;
+
                         // add the categories
                         results[upc].categories = data[upc].categories;
                     } else {
